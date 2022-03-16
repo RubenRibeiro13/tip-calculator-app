@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="images/logo.png" alt="logo image">
+  </header>
+
+  <main>
+    <form class="" action="" method="">
+
+      <div class="inputs-container">
+
+        <div class="error-message-container">
+          <label>Bill</label>
+          <p class="error-message error-message-bill"></p>
+        </div>
+        <input class="number-input bill-input" type="text" name="" value="" placeholder="0" pattern="([0-9]|[1-9][0-9]+)[.,][0-9]{2}">
+
+        <div class="error-message-container">
+          <label>Select Tip %</label>
+          <p class="error-message error-message-tip"></p>
+        </div>
+        <div class="tip-buttons-container">
+          <input class="percentage-button" type="button" name="" value="5%">
+          <input class="percentage-button" type="button" name="" value="10%">
+          <input class="percentage-button" type="button" name="" value="15%">
+          <input class="percentage-button" type="button" name="" value="25%">
+          <input class="percentage-button" type="button" name="" value="50%">
+          <div>
+            <input class="custom-button" id="custom-button" type="button" name="" value="Custom" placeholder="0" pattern="([0-9]|[1-9][0-9]+)">
+          </div>
+        </div>
+
+        <div class="error-message-container">
+          <label>Number of People</label>
+          <p class="error-message error-message-people"></p>
+        </div>
+        <input class="number-input people-input" type="text" name="" value="" placeholder="0" pattern="([0-9]|[1-9][0-9]+)">
+
+      </div>
+
+      <div class="outputs-container">
+        <div class="price-per-person-container">
+          <div>
+            <p class="price-string">Tip Amount</p>
+            <p class="per-person-string">/ person</p>
+          </div>
+          <p class="price-per-person-value tip-per-person-value">$0.00</p>
+        </div>
+
+        <div class="price-per-person-container">
+          <div>
+            <p class="price-string">Total</p>
+            <p class="per-person-string">/ person</p>
+          </div>
+          <p class="price-per-person-value total-per-person-value">$0.00</p>
+        </div>
+
+        <input class="reset-button" id="reset-button" type="reset" name="" value="RESET">
+      </div>
+
+    </form>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://rubenribeiro13.github.io/my-site/">Ruben Ribeiro</a>.
+    </p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
