@@ -57,7 +57,7 @@ While working through this project, I learned:
 
 ```html
 
-<input class="number-input bill-input" type="text" name="" value="" placeholder="0" pattern="([0-9]|[1-9][0-9]+)[.,][0-9]{2}">
+<input class="number-input bill-input" type="text" value="" placeholder="0" pattern="([0-9]|[1-9][0-9]+)[.,][0-9]{2}">
 
 ```
 
